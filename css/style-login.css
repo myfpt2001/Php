@@ -1,0 +1,187 @@
+.container {
+    width: 70%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 50px;
+    margin: auto;
+    padding-top: 80px;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding-left: 50px;
+}
+
+.title-register {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Signika', sans-serif;
+}
+
+.img-login>img {
+    width: 94%;
+}
+
+
+/* .from-login {
+    padding-top: 60px;
+} */
+
+.from-login>form>input {
+    width: 350px;
+    height: 30px;
+    border: 1px solid #9e9898;
+    border-radius: 30px;
+    padding: 5px 10px 5px 30px;
+}
+
+input#username:focus,
+input#password:focus,
+input#username:hover,
+input#password:hover {
+    color: black;
+}
+
+input::-webkit-input-placeholder {
+    color: black;
+}
+
+input:-moz-placeholder {
+    color: black;
+}
+
+input::-moz-placeholder {
+    color: black;
+}
+
+input:-ms-input-placeholder {
+    color: black;
+}
+
+input:hover::-webkit-input-placeholder {
+    color: #3970b0;
+}
+
+input:hover:-moz-placeholder {
+    color: #3970b0;
+}
+
+input:hover::-moz-placeholder {
+    color: #3970b0;
+}
+
+input:hover:-ms-input-placeholder {
+    color: #3970b0;
+}
+
+.from-login>form>i {
+    font-size: 24px;
+}
+
+.remember {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 110px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.remember>span {
+    margin-left: 40px;
+}
+
+.btn {
+    background: #ff3366;
+    color: #FFF;
+    font-size: 26px;
+    padding: 0.3em 1.2em;
+    margin-left: 145px;
+    width: 30%;
+    border: none;
+    border-radius: 30px;
+}
+
+.forgot:hover {
+    color: #ff3366;
+}
+
+.forgot {
+    color: black;
+    text-decoration: none;
+}
+
+ul.social-agileinfo {
+    margin-left: 80px;
+}
+
+ul.social-agileinfo li {
+    display: inline-block;
+    margin: 0;
+}
+
+ul.social-agileinfo li a i.fab {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+}
+
+ul.social-agileinfo li a i.fab.fa-facebook-f:hover {
+    background-color: #3b5998;
+    color: #FFF;
+    border-color: #3b5998;
+}
+
+ul.social-agileinfo li a i.fab.fa-twitter:hover {
+    background-color: #1da1f2;
+    color: #FFF;
+    border-color: #1da1f2;
+}
+
+ul.social-agileinfo li a i.fab.fa-youtube:hover {
+    background-color: #cd201f;
+    color: #FFF;
+    border-color: #cd201f;
+}
+
+ul.social-agileinfo li a i.fab.fa-google-plus:hover {
+    /*-- w3ls --*/
+    background-color: #dd4b39;
+    color: #FFF;
+    border-color: #dd4b39;
+}
+
+ul.social-agileinfo li a i.fab:hover {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    -moz-animation: spin 2s linear infinite;
+    -o-animation: spin 2s linear infinite;
+    -ms-animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.title-login {
+    display: flex;
+}
